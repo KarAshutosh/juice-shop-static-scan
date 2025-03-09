@@ -1,0 +1,685 @@
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\basket.ts
+Errors: 2 | Warnings: 0
+1. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 18, Column 5
+Result: Possible True Positive
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 18, Column 5
+Result: Possible True Positive
+Note: Repeated 
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\basketItems.ts      
+Errors: 2 | Warnings: 0
+1. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 67, Column 5
+Result: Confirmed True Positive
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 85, Column 25
+Result: Possible True Positive
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\2fa.ts
+Errors: 5 | Warnings: 0
+1. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 33, Column 24
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 45, Column 127
+Result: False Positive
+--------------------------------------------------------------------------------
+3. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 52, Column 5
+--------------------------------------------------------------------------------
+4. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 131, Column 29
+--------------------------------------------------------------------------------
+5. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 164, Column 29
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\address.ts
+Errors: 1 | Warnings: 0
+1. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 18, Column 27
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\appVersion.ts       
+Errors: 1 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 14, Column 16
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\changePassword.ts   
+Errors: 3 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 26, Column 28
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 31, Column 11
+--------------------------------------------------------------------------------
+3. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 31, Column 11
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\chatbot.ts
+Errors: 13 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 23, Column 20
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 44, Column 17
+--------------------------------------------------------------------------------
+3. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 44, Column 57
+--------------------------------------------------------------------------------
+4. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 44, Column 114
+--------------------------------------------------------------------------------
+5. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 105, Column 17
+--------------------------------------------------------------------------------
+6. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 116, Column 15
+--------------------------------------------------------------------------------
+7. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 133, Column 29
+--------------------------------------------------------------------------------
+8. Rule: idor-detection/mass-assignment
+Error
+Message: Potential IDOR via mass assignment: Using request body directly in database operation without filtering
+Location: Line 141, Column 31
+--------------------------------------------------------------------------------
+9. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 145, Column 5
+--------------------------------------------------------------------------------
+10. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 163, Column 18
+--------------------------------------------------------------------------------
+11. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 171, Column 64
+--------------------------------------------------------------------------------
+12. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 198, Column 65
+--------------------------------------------------------------------------------
+13. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 211, Column 18
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\countryMapping.ts   
+Errors: 1 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 12, Column 30
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\coupon.ts
+Errors: 2 | Warnings: 0
+1. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 17, Column 5
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 17, Column 5
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\currentUser.ts      
+Errors: 1 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 18, Column 16
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\dataErasure.ts      
+Errors: 3 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 19, Column 24
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 55, Column 24
+--------------------------------------------------------------------------------
+3. Rule: idor-detection/file-access
+Error
+Message: Potential IDOR: Accessing files using user-controlled path without validation
+Location: Line 69, Column 32
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\dataExport.ts       
+Errors: 2 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 17, Column 26
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 56, Column 44
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\delivery.ts
+Errors: 1 | Warnings: 0
+1. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 34, Column 26
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\deluxe.ts
+Errors: 4 | Warnings: 0
+1. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 19, Column 26
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 25, Column 30
+--------------------------------------------------------------------------------
+3. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 35, Column 28
+--------------------------------------------------------------------------------
+4. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 48, Column 11
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\likeProductReviews.ts
+Errors: 4 | Warnings: 0
+1. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 18, Column 5
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 18, Column 5
+--------------------------------------------------------------------------------
+3. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 31, Column 17
+--------------------------------------------------------------------------------
+4. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 31, Column 17
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\login.ts
+Errors: 10 | Warnings: 0
+1. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 23, Column 5
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 27, Column 9
+--------------------------------------------------------------------------------
+3. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 36, Column 5
+--------------------------------------------------------------------------------
+4. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 62, Column 107
+--------------------------------------------------------------------------------
+5. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 63, Column 109
+--------------------------------------------------------------------------------
+6. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 64, Column 114
+--------------------------------------------------------------------------------
+7. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 65, Column 101
+--------------------------------------------------------------------------------
+8. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 66, Column 115
+--------------------------------------------------------------------------------
+9. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 75, Column 114
+--------------------------------------------------------------------------------
+10. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 76, Column 57
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\metrics.ts
+Errors: 7 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 78, Column 15
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 84, Column 33
+--------------------------------------------------------------------------------
+3. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 119, Column 41
+--------------------------------------------------------------------------------
+4. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 157, Column 37
+--------------------------------------------------------------------------------
+5. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 158, Column 34
+--------------------------------------------------------------------------------
+6. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 164, Column 62
+--------------------------------------------------------------------------------
+7. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 165, Column 61
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\nftMint.ts
+Errors: 1 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 36, Column 9
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\order.ts
+Errors: 5 | Warnings: 0
+1. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 36, Column 5
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 36, Column 5
+--------------------------------------------------------------------------------
+3. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 53, Column 44
+--------------------------------------------------------------------------------
+4. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 117, Column 51
+--------------------------------------------------------------------------------
+5. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 140, Column 36
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\orderHistory.ts     
+Errors: 1 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 13, Column 26
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\payment.ts
+Errors: 4 | Warnings: 0
+1. Rule: idor-detection/detect-hardcoded-user-id
+Error
+Message: Potential IDOR vulnerability: Hardcoded user ID detected        
+Location: Line 39, Column 1
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 41, Column 24
+--------------------------------------------------------------------------------
+3. Rule: idor-detection/detect-hardcoded-user-id
+Error
+Message: Potential IDOR vulnerability: Hardcoded user ID detected        
+Location: Line 42, Column 11
+--------------------------------------------------------------------------------
+4. Rule: idor-detection/detect-hardcoded-user-id
+Error
+Message: Potential IDOR vulnerability: Hardcoded user ID detected        
+Location: Line 43, Column 7
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\profileImageFileUpload.ts
+Errors: 3 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 26, Column 30
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 36, Column 11
+--------------------------------------------------------------------------------
+3. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 36, Column 11
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\profileImageUrlUpload.ts
+Errors: 7 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 20, Column 28
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 22, Column 30
+--------------------------------------------------------------------------------
+3. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 22, Column 30
+--------------------------------------------------------------------------------
+4. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 25, Column 13
+--------------------------------------------------------------------------------
+5. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 32, Column 15
+--------------------------------------------------------------------------------
+6. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 32, Column 15
+--------------------------------------------------------------------------------
+7. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 33, Column 20
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\resetPassword.ts    
+Errors: 4 | Warnings: 0
+1. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 30, Column 7
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 37, Column 11
+--------------------------------------------------------------------------------
+3. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 66, Column 24
+--------------------------------------------------------------------------------
+4. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 77, Column 24
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\saveLoginIp.ts      
+Errors: 1 | Warnings: 0
+1. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 29, Column 7
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\trackOrder.ts       
+Errors: 1 | Warnings: 0
+1. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 17, Column 5
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\updateProductReviews.ts
+Errors: 1 | Warnings: 0
+1. Rule: idor-detection/mass-assignment
+Error
+Message: Potential IDOR via mass assignment: Using request body directly in database operation without filtering
+Location: Line 17, Column 5
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\updateUserProfile.ts
+Errors: 4 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 17, Column 26
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 20, Column 7
+--------------------------------------------------------------------------------
+3. Rule: idor-detection/mass-assignment
+Error
+Message: Potential IDOR via mass assignment: Using request body directly in database operation without filtering
+Location: Line 27, Column 16
+--------------------------------------------------------------------------------
+4. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 31, Column 13
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\userProfile.ts      
+Errors: 6 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 24, Column 28
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 26, Column 9
+--------------------------------------------------------------------------------
+3. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 43, Column 32
+--------------------------------------------------------------------------------
+4. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 48, Column 67
+--------------------------------------------------------------------------------
+5. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 55, Column 72
+--------------------------------------------------------------------------------
+6. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 76, Column 34
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\verify.ts
+Errors: 5 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 169, Column 27
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 177, Column 59
+--------------------------------------------------------------------------------
+3. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 389, Column 72
+--------------------------------------------------------------------------------
+4. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 397, Column 73
+--------------------------------------------------------------------------------
+5. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 408, Column 10
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\videoHandler.ts     
+Errors: 6 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 59, Column 28
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 60, Column 63
+--------------------------------------------------------------------------------
+3. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 74, Column 34
+--------------------------------------------------------------------------------
+4. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 79, Column 21
+--------------------------------------------------------------------------------
+5. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 85, Column 7
+--------------------------------------------------------------------------------
+6. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 86, Column 41
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\vulnCodeSnippet.ts  
+Errors: 1 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 36, Column 12
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\wallet.ts
+Errors: 2 | Warnings: 0
+1. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 12, Column 26
+--------------------------------------------------------------------------------
+2. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 24, Column 33
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\web3Wallet.ts       
+Errors: 1 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 21, Column 13
+--------------------------------------------------------------------------------
+
+ESLint Analysis Complete!

@@ -14,7 +14,6 @@ Before running this project, ensure you have the following installed on your sys
         ```
 
 2. **npx (Node Package Executor)**  
-    - Comes bundled with Node.js (from version 5.2.0 and later).  
     - Verify installation:  
         ```
         npx -v
@@ -59,12 +58,16 @@ To analyze the codebase for potential **Insecure Direct Object References (IDOR)
     npx eslint --ext .ts,.js routes/ -f json -o eslint-report.json
     ```
 
-3. Review the output and inspect flagged code for potential IDOR vulnerabilities.
+3. Parse the code into human readable format:
+    ```
+    python3 eslint-report-parser.py
+    ```
+
+4. Review the output and inspect flagged code for potential IDOR vulnerabilities.
 
 ## Next Steps
 
-- Parse and analyze `eslint-report.json` to identify vulnerabilities.
-- Integrate with SonarQube (SAST) as an external issue report.
+- Modify `eslint-report.json` file to integrate with SonarQube (SAST) as an external issue report.
 
 ## Notes 
 

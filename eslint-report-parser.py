@@ -21,7 +21,7 @@ for report in reports:
 
         for idx, error in enumerate(errors, 1):
             print(f"{idx}. Rule: {error.get('ruleId', 'Unknown Rule')}")
-            severity = "Error" if error["severity"] == 2 else "sWarning"
+            severity = "Error" if error["severity"] == 2 else "Warning"
             print(f"{severity}")
             print(f"Message: {error['message']}")
             print(f"Location: Line {error['line']}, Column {error['column']}")

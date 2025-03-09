@@ -18,11 +18,6 @@ for report in reports:
         print("=" * 80)
         print(f"File: {file_path}")
         print(f"Errors: {error_count} | Warnings: {warning_count}")
-        # print("=" * 80)
-
-    # if not errors:
-    #     print("No issues found!\n")
-    #     continue
 
         for idx, error in enumerate(errors, 1):
             print(f"{idx}. Rule: {error.get('ruleId', 'Unknown Rule')}")

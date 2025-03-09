@@ -3,7 +3,6 @@ module.exports = {
   rules: {
     "direct-database-access": require("./rules/direct-database-access"),
     "file-access": require("./rules/file-access"),
-    "graphql-resolver": require("./rules/graphql-resolver"),
     "predictable-ids": require("./rules/predictable-ids"),
     "missing-object-authorization": require("./rules/missing-object-authorization"),
     "mass-assignment": require("./rules/mass-assignment"),
@@ -15,7 +14,6 @@ module.exports = {
       rules: {
         "idor-detection/direct-database-access": "error",
         "idor-detection/file-access": "error",
-        "idor-detection/graphql-resolver": "error",
         "idor-detection/predictable-ids": "error",
         "idor-detection/missing-object-authorization": "error",
         "idor-detection/mass-assignment": "error",

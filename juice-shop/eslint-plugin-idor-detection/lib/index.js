@@ -6,7 +6,10 @@ module.exports = {
     "predictable-ids": require("./rules/predictable-ids"),
     "missing-object-authorization": require("./rules/missing-object-authorization"),
     "mass-assignment": require("./rules/mass-assignment"),
-    "unprotected-profile": require("./rules/unprotected-profile")
+    "unprotected-profile": require("./rules/unprotected-profile"),
+    "detect-missing-auth-check": require("./rules/detect-missing-auth-check"),
+    "detect-unsafe-parameter-usage": require("./rules/detect-unsafe-parameter-usage"),
+    "detect-hardcoded-user-id": require("./rules/detect-hardcoded-user-id")
   },
   configs: {
     recommended: {
@@ -17,7 +20,10 @@ module.exports = {
         "idor-detection/predictable-ids": "error",
         "idor-detection/missing-object-authorization": "error",
         "idor-detection/mass-assignment": "error",
-        "idor-detection/unprotected-profile": "error"
+        "idor-detection/unprotected-profile": "error",
+        "idor-detection/detect-missing-auth-check": "error",
+        "idor-detection/detect-unsafe-parameter-usage": "error",
+        "idor-detection/detect-hardcoded-user-id": "error"
       }
     }
   }

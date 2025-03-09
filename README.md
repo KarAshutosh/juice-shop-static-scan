@@ -1,6 +1,6 @@
-# IDOR Detection On Static Code
+# Static Code Vulnerability Detection
 
-A custom ESLint plugin for detecting Insecure Direct Object Reference (IDOR) vulnerabilities in TypeScript/JavaScript applications. This example uses the OWASP Juice Shop application.
+A custom ESLint plugin for detecting mainly Insecure Direct Object Reference (IDOR) vulnerabilities in TypeScript/JavaScript applications. This example uses the OWASP Juice Shop application.
 
 ## Prerequisites
 
@@ -32,19 +32,19 @@ Before running this project, ensure you have the following installed on your sys
     cd juice-shop
     ```
 
-2. Install dependencies:
+3. Install dependencies:
     ```
     npm install
     ```
 
-3. (Optional) Start the application:
+4. (Optional) Start the application:
     ```
     npm start
     ```
 
 The application should now be running at `http://localhost:3000`.
 
-## Using ESLint for IDOR Detection
+## Using ESLint for Vulnerability Detection
 
 To analyze the codebase for potential **Insecure Direct Object References (IDOR)** vulnerabilities:
 
@@ -60,6 +60,8 @@ To analyze the codebase for potential **Insecure Direct Object References (IDOR)
 
 3. Parse the code into human readable format:
     ```
+    cd .. 
+    
     python3 eslint-report-parser.py
     ```
 

@@ -5,13 +5,13 @@ Errors: 2 | Warnings: 0
 Error
 Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
 Location: Line 18, Column 5
-Result: Possible True Positive
+Result: Confirmed True Positive
 --------------------------------------------------------------------------------
 2. Rule: idor-detection/detect-unsafe-parameter-usage
 Error
 Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
 Location: Line 18, Column 5
-Result: Possible True Positive
+Result: Confirmed True Positive
 Note: Repeated 
 --------------------------------------------------------------------------------
 ================================================================================
@@ -27,7 +27,7 @@ Result: Confirmed True Positive
 Error
 Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
 Location: Line 85, Column 25
-Result: Possible True Positive
+Result: Confirmed True Positive
 --------------------------------------------------------------------------------
 ================================================================================
 File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\2fa.ts

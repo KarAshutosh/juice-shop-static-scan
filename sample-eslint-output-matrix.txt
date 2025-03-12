@@ -30,6 +30,25 @@ Location: Line 85, Column 25
 Result: Confirmed True Positive
 --------------------------------------------------------------------------------
 ================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\address.ts
+Errors: 1 | Warnings: 0
+1. Rule: idor-detection/detect-unsafe-parameter-usage
+Error
+Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
+Location: Line 18, Column 27
+Result: Confirmed True Positive
+Note: Vulnerability mitigated due to `security.appendUserId()` 
+--------------------------------------------------------------------------------
+================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\appVersion.ts       
+Errors: 1 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 14, Column 16
+Result: Confirmed False Positive
+--------------------------------------------------------------------------------
+================================================================================
 File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\2fa.ts
 Errors: 5 | Warnings: 0
 1. Rule: idor-detection/detect-unsafe-parameter-usage
@@ -57,22 +76,6 @@ Location: Line 131, Column 29
 Error
 Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
 Location: Line 164, Column 29
---------------------------------------------------------------------------------
-================================================================================
-File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\address.ts
-Errors: 1 | Warnings: 0
-1. Rule: idor-detection/detect-unsafe-parameter-usage
-Error
-Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
-Location: Line 18, Column 27
---------------------------------------------------------------------------------
-================================================================================
-File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\appVersion.ts       
-Errors: 1 | Warnings: 0
-1. Rule: idor-detection/detect-missing-auth-check
-Error
-Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
-Location: Line 14, Column 16
 --------------------------------------------------------------------------------
 ================================================================================
 File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\changePassword.ts   

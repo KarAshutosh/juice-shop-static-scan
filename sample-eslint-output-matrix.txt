@@ -84,16 +84,21 @@ Errors: 3 | Warnings: 0
 Error
 Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
 Location: Line 26, Column 28
+Result: Confirmed False Positive
 --------------------------------------------------------------------------------
 2. Rule: idor-detection/detect-unsafe-parameter-usage
 Error
 Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
 Location: Line 31, Column 11
+Result: Confirmed True Positive
+Note: Chained by broken authentication on line 28 from empty `currentPassword`
 --------------------------------------------------------------------------------
 3. Rule: idor-detection/detect-unsafe-parameter-usage
 Error
 Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
 Location: Line 31, Column 11
+Result: Confirmed True Positive
+Note: Chained by broken authentication on line 28 from empty `currentPassword`. Repeated
 --------------------------------------------------------------------------------
 ================================================================================
 File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\chatbot.ts

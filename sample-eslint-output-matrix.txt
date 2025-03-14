@@ -72,6 +72,16 @@ Result: Confirmed True Positive
 Note: Chained by broken authentication on line 28 from empty `currentPassword`. Repeated
 --------------------------------------------------------------------------------
 ================================================================================
+File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\currentUser.ts      
+Errors: 1 | Warnings: 0
+1. Rule: idor-detection/detect-missing-auth-check
+Error
+Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
+Location: Line 18, Column 16
+Result: Confirmed True Positive
+Note: Only authentication check. No check that the requesting user matches the retrieved user. Can get PII from URL parameter "callback"
+--------------------------------------------------------------------------------
+================================================================================
 File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\chatbot.ts
 Errors: 13 | Warnings: 0
 1. Rule: idor-detection/detect-missing-auth-check
@@ -159,14 +169,6 @@ Location: Line 17, Column 5
 Error
 Message: Potential IDOR: User-provided parameter used in database operation without ownership verification
 Location: Line 17, Column 5
---------------------------------------------------------------------------------
-================================================================================
-File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\currentUser.ts      
-Errors: 1 | Warnings: 0
-1. Rule: idor-detection/detect-missing-auth-check
-Error
-Message: Route handler may be missing authentication checks, potentially leading to IDOR vulnerability
-Location: Line 18, Column 16
 --------------------------------------------------------------------------------
 ================================================================================
 File: C:\KarAshutosh\juice-shop-static-scan\juice-shop\routes\dataErasure.ts      
